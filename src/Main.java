@@ -1,4 +1,3 @@
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Map;
@@ -13,9 +12,9 @@ public class Main {
  
         InventarioController inventario = new InventarioController();
  
-        System.out.println("===================================================");
-        System.out.println(" FARMASTOCK - Prototipo inicial");
-        System.out.println("===================================================\n");
+        System.out.println("=================");
+        System.out.println(" FARMASTOCK");
+        System.out.println("=================\n");
  
         // --- Registro de medicamentos usando las dos versiones sobrecargadas ---
  
@@ -118,4 +117,3 @@ public class Main {
         }
     }
 }
- 
