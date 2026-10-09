@@ -84,9 +84,22 @@ public class InventarioController {
             System.out.println("No hay medicamentos registrados.");
             return;
         }
+        // Total de medicamentos por ID
+        int i = 0;
         for (Medicamento m : medicamentos) {
-            System.out.println(m);
+            i++;
         }
+        String[] ListaElementos = new String[i+1];
+
+        System.out.println("Total de medicamentos por ID: " + i);
+        // Ordenamiento de elementos
+        for (Medicamento m : medicamentos) {
+            ListaElementos[m.getId()] = m.toString();
+        }
+        for (int j = 1; j < ListaElementos.length; j++) {
+            System.out.println(ListaElementos[j]);
+        }
+
     }
 
     public void listarProximosAVencer(int diasLimite) {

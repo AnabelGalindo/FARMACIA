@@ -86,7 +86,7 @@ public class Medicamento {
 
     @Override
     public String toString() {
-        String estado = estaVencido() ? "VENCIDO" : "vigente";
+        String estado = estaVencido() ? "Vencido" : "Vigente";
         return String.format("[%d] %-15s | %-12s | S/ %6.2f | Stock: %3d | Vence: %s (%s)",
                 id, nombre, categoria, precio, cantidad, fechaVencimiento, estado);
     }
