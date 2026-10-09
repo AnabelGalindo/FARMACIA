@@ -84,8 +84,8 @@ public class InventarioController {
             System.out.println("No hay medicamentos registrados.");
             return;
         }
-        // Total de medicamentos por ID
         int i = 0;
+        // Total de medicamentos por IDS
         for (Medicamento m : medicamentos) {
             i++;
         }
