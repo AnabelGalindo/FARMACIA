@@ -17,28 +17,11 @@ public class Main {
 
     mostrarSeccion("1. REGISTRO DE MEDICAMENTOS");
 
-    // ID 1
-
     inventario.agregarMedicamento(new Medicamento(1,"Paracetamol 500mg","Analgesico",5.50,40,LocalDate.now().plusDays(200)));
-
-    // ID 2
-
     inventario.agregarMedicamento(2,"Amoxicilina 500mg","Antibiotico",12.90,15,LocalDate.now().plusDays(10).toString());
-
-    // ID 3
-
     inventario.agregarMedicamento(3,"Ibuprofeno 400mg","Antiinflamatorio",7.20,5,LocalDate.now().plusDays(5).toString());
-
-    // ID 4: medicamento vencido para probar la validacion
-
     inventario.agregarMedicamento(4,"Suero Oral","Rehidratante",3.00,20,LocalDate.now().minusDays(3).toString());
-
-    // ID 5
-
     inventario.agregarMedicamento(new Medicamento(5,"Loratadina 10mg","Antialergico",4.80,30,LocalDate.now().plusDays(300)));
-
-    // ID 6
-
     inventario.agregarMedicamento(new Medicamento(6,"Omeprazol 20mg","Gastrico",6.50,25,LocalDate.now().plusDays(180)));
 
     System.out.println("Se registraron 6 medicamentos correctamente.");
