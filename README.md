@@ -4,5 +4,5 @@ mediante cuadernos de registro u hojas de cálculo aisladas. Esta forma de traba
 con precisión qué productos están próximos a vencer, cuántas unidades hay disponibles de cada 
 referencia y cuáles ya no deberían venderse por haber superado su fecha de vencimiento.
 
-
+ 
 
