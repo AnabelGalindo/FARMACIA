@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-/**
+/*
  * Clase que representa un medicamento dentro del inventario de la farmacia.
  */
 public class Medicamento {
@@ -69,16 +69,11 @@ public class Medicamento {
         this.fechaVencimiento = fechaVencimiento;
     }
 
-    /**
-     * Indica si el medicamento ya superó su fecha de vencimiento.
-     */
+
     public boolean estaVencido() {
         return fechaVencimiento.isBefore(LocalDate.now());
     }
 
-    /**
-     * Indica si el medicamento vence dentro de los proximos "dias" indicados.
-     */
     public boolean venceEn(int dias) {
         LocalDate limite = LocalDate.now().plusDays(dias);
         return !fechaVencimiento.isBefore(LocalDate.now()) && !fechaVencimiento.isAfter(limite);

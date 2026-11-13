@@ -1,4 +1,6 @@
-/**
+package edu.upn.farmacia.exceptions;
+
+/*
  * Excepcion lanzada cuando se intenta vender mas unidades de las
  * que hay disponibles en el inventario.
  */

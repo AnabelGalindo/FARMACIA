@@ -10,4 +10,18 @@
         <maven.compiler.release>25</maven.compiler.release>
         <exec.mainClass>Main</exec.mainClass>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.toedter</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.5.5</version>
+        </dependency>
+    </dependencies>
 </project>

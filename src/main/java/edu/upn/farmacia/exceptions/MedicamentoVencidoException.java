@@ -1,4 +1,6 @@
-/**
+package edu.upn.farmacia.exceptions;
+
+/*
  * Excepcion lanzada cuando se intenta vender un medicamento
  * cuya fecha de vencimiento ya paso.
  */
